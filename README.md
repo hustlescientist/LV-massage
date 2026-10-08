@@ -2,11 +2,22 @@
 
 Mobile-first static rebuild for **Las Vegas Cosmetic Recovery**, designed for client review and GitHub Pages.
 
-## Expected demo URL
+## Demo URL
 
 https://hustlescientist.github.io/LV-massage/
 
-If Pages has not been enabled yet, set **Repository Settings → Pages → Source → GitHub Actions**.
+## Deployment
+
+This repo does **not** use GitHub Actions for deployment.
+
+The published site should use the dedicated **`gh-pages`** branch:
+
+- **Repository Settings → Pages**
+- **Build and deployment → Source → Deploy from a branch**
+- **Branch → `gh-pages`**
+- **Folder → `/ (root)`**
+
+`main` remains the working/source branch. The `gh-pages` branch is the publish branch.
 
 ## Included
 
@@ -24,7 +35,6 @@ If Pages has not been enabled yet, set **Repository Settings → Pages → Sourc
 - Cosmetic Surgery Therapist Training feature
 - Three digital product cards
 - Google, Facebook, Instagram, YouTube, and TikTok links
-- GitHub Pages deployment workflow
 - No framework or build step
 
 ## Media architecture
